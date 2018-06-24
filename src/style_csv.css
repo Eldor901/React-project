@@ -1,0 +1,44 @@
+.area-style{
+    resize: none;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.area-style:hover{
+    border-color: green;
+}
+
+.area-style:focus{
+    border-color: #26A69A;
+}
+
+.empty{
+    border-color: red;
+}
+
+.input-field>label{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.form-input:focus.form-label,
+.form-input:not(:focus):valid~.form-label {
+    top: -10px;
+    font-size: 10px;
+}
+
+.converter_btn{
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.converter_btn:hover{
+    opacity: 0.9;
+}
