@@ -1,0 +1,58 @@
+.modal-window__wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    will-change: transform;
+    transition: visibility .3s ease-in-out;
+}
+
+.modal-window__wrapper--hidden {
+    visibility: hidden;
+}
+
+.modal-window__wrapper--visible {
+    visibility: visible;
+}
+
+.modal-window__overlay {
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    height: inherit;
+    width: inherit;
+    z-index: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    will-change: opacity;
+    transition: opacity .3s ease-in-out;
+}
+
+.modal-window__overlay--hidden {
+    opacity: 0;
+}
+
+.modal-window__overlay--visible {
+    opacity: 1;
+}
+
+.modal-window {
+    padding: 10px;
+    height: inherit;
+    width: 500px;
+    position: inherit;
+    background-color: #ffffff;
+    top: inherit;
+    z-index: inherit;
+    will-change: inherit;
+    transition: right .3s ease-in-out;
+}
+
+.modal-window--visible {
+    right: 0;
+}
+
+.modal-window--hidden {
+    right: -100%;
+}

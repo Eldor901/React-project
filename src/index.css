@@ -7,3 +7,36 @@ body {
     outline: none;
 }
 
+.empty{
+    border-color: red;
+}
+
+
+.history_table{
+    max-width: 1370px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.teal.lighten-2{
+    border-color: #4db6ac;
+}
+
+.table.highlight>tbody>tr:hover{
+    background-color: darkgray;
+}
+
+.history_head{
+    background-color: #717171;
+}
+
+.input_sort {
+    padding-left: 20px !important;
+    max-width: 1370px;
+}
+
+.title_page {
+    font-size: 35px;
+    text-align: center;
+}
